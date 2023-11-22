@@ -8,7 +8,8 @@ app = FastAPI()
 class TextParameter(BaseModel):
     text: str
 
-@app.post('/predict')
+
+@app.post('/predict') # revisar en postman
 def predict(text_parameter: TextParameter):
     text = text_parameter.text
     sentimiento, sentimiento_proba = get_prediction(text)
