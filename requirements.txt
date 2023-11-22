@@ -1,0 +1,15 @@
+FastAPI
+uvicorn
+nltk
+unidecode
+gensim
+joblib
+scikit-learn
+yellowbrick
+wordcloud
+pandas
+numpy
+matplotlib
+seaborn
+unidecode
+
